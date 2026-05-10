@@ -68,3 +68,42 @@ Models jurisdictions as interacting agents with different regulatory behaviors:
 ---
 
 ## 🧪 Example Simulation
+Data: clinical_trial_data
+Flow: EU → US
+
+Decision: CONDITIONAL
+Risk Score: 62
+Conflict Score: 0.41
+
+Reason:
+Cross-border divergence in clinical data governance
+
+Trace:
+
+* classification → clinical
+* EU restrictive policy
+* US conditional policy
+* conflict computed
+
+---
+
+## 🧠 System Principle
+
+Governance is not a static rule system.
+
+It is a dynamic interaction field between jurisdictions.
+
+---
+
+## 📁 Repo Structure (simplified)
+/app.py (demo UI)
+/engine.py (simplified logic)
+/rules.json (policy map)
+/scenarios.json (examples)
+/architecture.md (system design)
+
+---
+
+## ⚠️ Disclaimer
+
+This is a research and simulation framework for educational and exploratory purposes.
